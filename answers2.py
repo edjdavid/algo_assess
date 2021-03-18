@@ -20,6 +20,10 @@ def bin_search(arr, n):
 
 def mat_search(m, num):
     """Returns the index of num if contained in m, otherwise return -1
+    
+    m: matrix that have sorted rows and the columns.
+    num: number to find in the matrix m
+    
     """
     # since the values are row/column sorted
     # we can perform a binary search using the first value of each row first

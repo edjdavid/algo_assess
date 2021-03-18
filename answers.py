@@ -1,6 +1,6 @@
 def max_cont_sum(arr):
     """Given an array A of integers (both positive and negative integers),
-       return the maximum contiguous sum.
+       returns the maximum contiguous sum.
     """
     # store the highest sum and compare it with each additional item
     high_sum = 0
